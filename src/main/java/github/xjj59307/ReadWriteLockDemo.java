@@ -3,7 +3,7 @@ package github.xjj59307;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-class ReadWriteLockDemo {
+public class ReadWriteLockDemo {
 
   public static void main(String[] args) {
     final ReadWriteLock lock = new ReentrantReadWriteLock();
